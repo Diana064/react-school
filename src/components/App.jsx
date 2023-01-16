@@ -1,3 +1,8 @@
-export const App = () => {
-  return <div>React homework template</div>;
-};
+import { Component } from 'react';
+import { MaterialEditorForm } from './MaterialEditorForm./MaterialEditorForm';
+
+export class App extends Component {
+  render() {
+    return <MaterialEditorForm />;
+  }
+}
