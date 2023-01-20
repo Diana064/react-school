@@ -1,5 +1,5 @@
 // import { Component } from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const Modal = ({ url, onClose }) => {
   return (
@@ -31,7 +31,7 @@ const ListItem = ({ item }) => {
   );
 };
 export const App = () => {
-  const [images, setImage] = useState([
+  const [images] = useState([
     { src: 'preview-1', large: 'large-1' },
     { src: 'preview-2', large: 'large-2' },
     { src: 'preview-3', large: 'large-3' },
